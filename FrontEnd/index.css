@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+.main-frame {
+  display: grid;
+  grid-template-columns: 1fr 5fr 6.25fr;
+  gap: 3rem;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 100vh;
+  background-color: #2d3ddf;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+}
+
+.nav-bar-icons-header {
+  margin: 4.3rem 6.4rem 0 6.4rem;
+  width: 3rem;
+  height: 3.4rem;
+}
+
+.nav-bar-items {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 6.5rem;
+  transform: translate(-50%, -50%);
+}
+
+.nav-bar-icons-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.selected {
+  background-color: #fff !important;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0.5rem 0.2rem 1rem rgb(0 0 0 / 20%);
+}
+
+.selected .nav-icons-text,
+.selected svg {
+  color: #2d3ddf !important;
+  stroke: #2d3ddf !important;
+}
+
+.nav-bar-icons {
+  width: 1.6rem;
+  height: 1.9rem;
+  align-self: center;
+  stroke: #fff;
+}
+
+.nav-icons-text {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.booking-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar-main {
+  background-color: #ebedff;
+  border: none;
+  border-radius: 0.75rem;
+  margin-top: 4.3rem;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+.search-bar-main::placeholder {
+  font-size: 1.5rem;
+}
+
+.booking-header {
+  margin-top: 4.3rem;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #2d3ddf;
+}
+
+.interest-selector-icons {
+  display: flex;
+  justify-content: center;
+  gap: 7.5rem;
+  margin-top: 2.1rem;
+}
+
+.interest-icons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.interest-icons-container div {
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  align-self: center;
+}
+
+.interest-icons-container svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #696969;
+  align-self: center;
+}
+
+.interest-selected div {
+  background-color: #5f6be6 !important;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0.5rem 0.2rem 1rem rgb(0 0 0 / 20%);
+}
+
+.interest-selected svg {
+  stroke: #fff !important;
+}
+
+.interest-icons-text {
+  font-size: 1.6rem;
+  color: #696969;
+}
+
+.location-selector {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #2d3ddf;
+  border-radius: 5px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14.8' height='22.492' viewBox='0 0 18.8 26.492'%3E%3Cpath id='Path_298' data-name='Path 298' d='M13.4 2A8.394 8.394 0 0 0 5 10.4C5 16.7 13.4 26 13.4 26s8.4-9.3 8.4-15.6A8.394 8.394 0 0 0 13.4 2Zm0 11.4a3 3 0 1 1 3-3A3 3 0 0 1 13.4 13.4Z' transform='translate(-4 -1)' fill='none' stroke='%238e8e8e' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 2.4rem center;
+  padding: 1.25rem 0 1.25rem 10rem;
+}
+
+.date-selector-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.date-selector {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #2d3ddf;
+  background-color: #f2f3ff;
+  border: 1px solid #bec3ff;
+  padding: 1.25rem 0 1.25rem 10rem;
+}
+
+.start-date {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='22' viewBox='0 0 20 22'%3E%3Cg id='calendar_2_' data-name='calendar (2)' transform='translate(1 1)'%3E%3Crect id='Rectangle_407' data-name='Rectangle 407' width='18' height='18' rx='2' transform='translate(0 2)' fill='%23fff' stroke='%238e8e8e' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline id='Line_1' data-name='Line 1' y2='4' transform='translate(13)' fill='none' stroke='%238e8e8e' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline id='Line_2' data-name='Line 2' y2='4' transform='translate(5)' fill='none' stroke='%238e8e8e' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cline id='Line_3' data-name='Line 3' x2='18' transform='translate(0 8)' fill='none' stroke='%238e8e8e' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 2.4rem center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.end-date {
+  padding: 1.25rem 0 1.25rem 5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.room-selector {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #2d3ddf;
+  border-radius: 5px;
+  padding: 1.5rem 0 1.5rem 13rem;
+  background-color: #f2f3ff;
+  border: 1px solid #bec3ff;
+  padding: 1.25rem 0 1.25rem 10rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='20.087' viewBox='0 0 24 20.087'%3E%3Cg id='Group_28' data-name='Group 28' transform='translate(1 1.087)'%3E%3Cg id='users'%3E%3Cpath id='Path_300' data-name='Path 300' d='M17 21V19a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2' transform='translate(-1 -3)' fill='none' stroke='%238e8e8e' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Ccircle id='Ellipse_6' data-name='Ellipse 6' cx='4' cy='4' r='4' transform='translate(3.998)' fill='none' stroke='%238e8e8e' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath id='Path_301' data-name='Path 301' d='M23 21V19a4 4 0 0 0-3-3.87' transform='translate(-1 -3)' fill='none' stroke='%238e8e8e' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cpath id='Path_302' data-name='Path 302' d='M16 3.13a4 4 0 0 1 0 7.75' transform='translate(-1 -3)' fill='none' stroke='%238e8e8e' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 2.4rem center;
+}
+
+.search-button {
+  color: #ffffff;
+  background-color: #2d3ddf;
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 2rem;
+  width: 20rem;
+  height: 5.2rem;
+  align-self: center;
+  border-radius: 5px;
+  border: 1px solid #2d3ddf;
+}
+
+.recent-search-header {
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #221f3c;
+  margin-bottom: 2rem;
+}
+
+.recent-search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.recent-search-card {
+  display: grid;
+  grid-template-columns: 3.2fr 7fr 1fr;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.recent-search-card-image-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.recent-search-description-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0 0.5rem 1.5rem;
+  gap: 0.35rem;
+}
+
+.recent-search-hotel-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.recent-search-rating-description {
+  display: flex;
+  gap: 2rem;
+}
+
+.recent-search-rating {
+  display: flex;
+  background-color: #ff6969;
+  border-radius: 10px;
+  color: #fff;
+  gap: 0.25rem;
+  text-align: center;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+}
+
+.recent-search-rating-number {
+  font-size: 1rem;
+}
+
+.recent-search-rating-counts {
+  font-size: 1.2rem;
+  color: #a8a8a8;
+}
+
+.recent-search-amenities-header {
+  font-size: 1.2rem;
+  color: #a8a8a8;
+}
+
+.recent-search-price {
+  font-size: 1.4rem;
+  color: #2d3ddf;
+  font-weight: 500;
+}
+
+.recent-search-book-now {
+  background-color: #2d3ddf;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.8rem;
+}
+
+.recent-search-amenities-icons-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.recent-search-amenities-icons {
+  display: block;
+  align-self: center;
+  padding: 0.25rem;
+  box-shadow: 0 0.4rem 1.2rem rgb(0 0 0 / 35%);
+  border-radius: 5px;
+  border: none;
+}
+
+.dots {
+  padding: 0.75rem 0.6rem;
+}
+
+.recent-search-book-now-text {
+  writing-mode: vertical-rl;
+}
+
+.interactive-area {
+  width: 100%;
+  max-height: 100vh;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(23, 31, 112, 0.2),
+      rgba(23, 31, 112, 0.95)
+    ),
+    url('./image/taj-mahal.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.interactive-area-main {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 57.5%;
+  left: 7%;
+  gap: 2.3rem;
+}
+
+.interactive-text-header {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.interactive-text-promo {
+  font-size: 2.64rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.interactive-take-tour-button {
+  display: block;
+  height: 5.2rem;
+  width: 14rem;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.7rem;
+}
+
+.interactive-next-page-button {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+
+.interactive-decoration-plane {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(30%, -32.5%);
+}
+
+.interactive-plane-trail {
+  width: 60rem;
+  height: 30rem;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transform: translate(-20%, -24%);
+}

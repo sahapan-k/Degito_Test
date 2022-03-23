@@ -1,0 +1,19 @@
+
+เรียงลำดับน้อยไปมาก-มากไปน้อย
+ascending sort = localhost:5000/api/v1/hotels?sort=<field>
+descending sort = localhost:5000/api/v1/hotels?sort=-<field>
+
+ค้นหาชื่อ
+localhost:5000/api/v1/hotels?name=<hotel Name>
+
+filter by available_status
+localhost:5000/api/v1/hotels?available_status=<available_status>
+
+filter by rating >= X
+localhost:5000/api/v1/hotels?rating[gte]=<rating>
+
+filter by rating <= X
+localhost:5000/api/v1/hotels?rating[lte]=<rating>
+
+ค้นหาโรงแรมที่สร้างระหว่างวันที่ X และ วันที่ Y
+localhost:5000/api/v1/hotels?create_at[gte]=YYYY-MM-DD:HH:MM.SSS&create_at[lte]=YYYY-MM-DD:HH:MM.SSS

@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Booking</title>
+  </head>
+  <body>
+    <div class="main-frame">
+      <div class="nav-bar">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 30 34"
+          class="nav-bar-icons-header"
+        >
+          <g
+            id="Group_335"
+            data-name="Group 335"
+            transform="translate(-42 -55)"
+          >
+            <circle
+              id="Ellipse_57"
+              data-name="Ellipse 57"
+              cx="8"
+              cy="8"
+              r="8"
+              transform="translate(42 55)"
+              fill="#fff"
+            />
+            <circle
+              id="Ellipse_58"
+              data-name="Ellipse 58"
+              cx="6.5"
+              cy="6.5"
+              r="6.5"
+              transform="translate(43 76)"
+              fill="#fff"
+            />
+            <circle
+              id="Ellipse_59"
+              data-name="Ellipse 59"
+              cx="6.5"
+              cy="6.5"
+              r="6.5"
+              transform="translate(59 70)"
+              fill="#fff"
+            />
+          </g>
+        </svg>
+
+        <div class="nav-bar-items">
+          <div class="nav-bar-icons-container">
+            <div class="nav-bar-icons">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18.598"
+                height="20.498"
+                viewBox="0 0 18.598 20.498"
+              >
+                <g
+                  id="Group_291"
+                  data-name="Group 291"
+                  transform="translate(1067.75 -2346.25)"
+                >
+                  <path
+                    id="Path_20"
+                    data-name="Path 20"
+                    d="M3,8.649,11.549,2,20.1,8.649V19.1A1.9,1.9,0,0,1,18.2,21H4.9A1.9,1.9,0,0,1,3,19.1Z"
+                    transform="translate(-1070 2345)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    id="Path_21"
+                    data-name="Path 21"
+                    d="M9,22V12h6V22"
+                    transform="translate(-1070.451 2343.998)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="nav-icons-text">Home</div>
+          </div>
+          <div class="nav-bar-icons-container selected">
+            <div class="nav-bar-icons">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17.811"
+                height="17.811"
+                viewBox="0 0 17.811 17.811"
+              >
+                <g id="search" transform="translate(-2.25 -2.25)">
+                  <circle
+                    id="Ellipse_6"
+                    data-name="Ellipse 6"
+                    cx="7"
+                    cy="7"
+                    r="7"
+                    transform="translate(3 3)"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                  <line
+                    id="Line_12"
+                    data-name="Line 12"
+                    x1="3.5"
+                    y1="3.5"
+                    transform="translate(15.5 15.5)"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="nav-icons-text">Explore</div>
+          </div>
+          <div class="nav-bar-icons-container">
+            <div class="nav-bar-icons">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19.844"
+                height="17.5"
+                viewBox="0 0 19.844 17.5"
+              >
+                <path
+                  id="heart"
+                  d="M18.478,4.413a4.827,4.827,0,0,0-6.828,0l-.93.93-.93-.93A4.828,4.828,0,0,0,2.963,11.24l.93.93L10.721,19l6.828-6.828.93-.93a4.827,4.827,0,0,0,0-6.828Z"
+                  transform="translate(-0.799 -2.248)"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </div>
+            <div class="nav-icons-text">Trips</div>
+          </div>
+          <div class="nav-bar-icons-container">
+            <div class="nav-bar-icons">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15.5"
+                height="17.5"
+                viewBox="0 0 15.5 17.5"
+              >
+                <g
+                  id="user_1_"
+                  data-name="user (1)"
+                  transform="translate(-3.25 -2.25)"
+                >
+                  <path
+                    id="Path_91"
+                    data-name="Path 91"
+                    d="M18,21V19a3.775,3.775,0,0,0-3.5-4h-7A3.775,3.775,0,0,0,4,19v2"
+                    transform="translate(0 -2)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                  <ellipse
+                    id="Ellipse_51"
+                    data-name="Ellipse 51"
+                    cx="3.556"
+                    cy="4"
+                    rx="3.556"
+                    ry="4"
+                    transform="translate(7.444 3)"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="nav-icons-text">Profile</div>
+          </div>
+        </div>
+      </div>
+      <div class="booking-area">
+        <div>
+          <input
+            placeholder="Search city, Country, Place for Travel advisory"
+            class="search-bar-main"
+          />
+        </div>
+        <header class="booking-header">What are You Looking for?</header>
+        <div class="interest-selector-icons">
+          <div class="interest-icons-container interest-selected">
+            <div>
+              <svg
+                id="review"
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="50"
+                viewBox="0 0 36 24"
+              >
+                <path
+                  id="Path_7"
+                  data-name="Path 7"
+                  d="M216,320h1.2v1.2H216Z"
+                  transform="translate(-201 -309.2)"
+                />
+                <path
+                  id="Path_8"
+                  data-name="Path 8"
+                  d="M248,320h1.2v1.2H248Z"
+                  transform="translate(-230.6 -309.2)"
+                />
+                <path
+                  id="Path_9"
+                  data-name="Path 9"
+                  d="M280,320h1.2v1.2H280Z"
+                  transform="translate(-260.2 -309.2)"
+                />
+                <path
+                  id="Path_10"
+                  data-name="Path 10"
+                  d="M216,352h1.2v1.2H216Z"
+                  transform="translate(-201 -338.8)"
+                />
+                <path
+                  id="Path_11"
+                  data-name="Path 11"
+                  d="M248,352h1.2v1.2H248Z"
+                  transform="translate(-230.6 -338.8)"
+                />
+                <path
+                  id="Path_12"
+                  data-name="Path 12"
+                  d="M280,352h1.2v1.2H280Z"
+                  transform="translate(-260.2 -338.8)"
+                />
+                <path
+                  id="Path_13"
+                  data-name="Path 13"
+                  d="M216,384h1.2v1.2H216Z"
+                  transform="translate(-201 -368.4)"
+                />
+                <path
+                  id="Path_14"
+                  data-name="Path 14"
+                  d="M248,384h1.2v1.2H248Z"
+                  transform="translate(-230.6 -368.4)"
+                />
+                <path
+                  id="Path_15"
+                  data-name="Path 15"
+                  d="M280,384h1.2v1.2H280Z"
+                  transform="translate(-260.2 -368.4)"
+                />
+                <path
+                  id="Path_16"
+                  data-name="Path 16"
+                  d="M216,256h1.2v1.2H216Z"
+                  transform="translate(-201 -250)"
+                />
+                <path
+                  id="Path_17"
+                  data-name="Path 17"
+                  d="M248,256h1.2v1.2H248Z"
+                  transform="translate(-230.6 -250)"
+                />
+                <path
+                  id="Path_18"
+                  data-name="Path 18"
+                  d="M280,256h1.2v1.2H280Z"
+                  transform="translate(-260.2 -250)"
+                />
+                <path
+                  id="Path_19"
+                  data-name="Path 19"
+                  d="M216,288h1.2v1.2H216Z"
+                  transform="translate(-201 -279.6)"
+                />
+                <path
+                  id="Path_20"
+                  data-name="Path 20"
+                  d="M248,288h1.2v1.2H248Z"
+                  transform="translate(-230.6 -279.6)"
+                />
+                <path
+                  id="Path_21"
+                  data-name="Path 21"
+                  d="M280,288h1.2v1.2H280Z"
+                  transform="translate(-260.2 -279.6)"
+                />
+                <path
+                  id="Path_27"
+                  data-name="Path 27"
+                  d="M144,288h1.8v1.2H144Z"
+                  transform="translate(-134.4 -279.6)"
+                />
+                <path
+                  id="Path_28"
+                  data-name="Path 28"
+                  d="M144,328h1.8v1.2H144Z"
+                  transform="translate(-134.4 -316.6)"
+                />
+                <path
+                  id="Path_29"
+                  data-name="Path 29"
+                  d="M144,368h1.8v1.2H144Z"
+                  transform="translate(-134.4 -353.6)"
+                />
+                <path
+                  id="Path_30"
+                  data-name="Path 30"
+                  d="M144,408h1.8v1.2H144Z"
+                  transform="translate(-134.4 -390.6)"
+                />
+                <path
+                  id="Path_31"
+                  data-name="Path 31"
+                  d="M49.6,192.2H48.4a2.4,2.4,0,0,0-2.4,2.4v1.236a2.835,2.835,0,0,0-1.2.492V193.4H43.6v3H39.4V182.6h4.2v9.6h1.2V182a.6.6,0,0,0-.6-.6H39.4v-3a.6.6,0,0,0-.6-.6H37v-1.2a.6.6,0,0,0-.6-.6H31.6a.6.6,0,0,0-.6.6v1.2H29.2a.6.6,0,0,0-.6.6v3H23.8a.6.6,0,0,0-.6.6v3.6h1.2v-3h4.2v13.8H24.4v-9.6H23.2v9.527a2.835,2.835,0,0,0-1.2-.492V194.6a2.4,2.4,0,0,0-2.4-2.4H18.4a2.4,2.4,0,0,0-2.4,2.4v4.8a.6.6,0,0,0,.6.6H51.4a.6.6,0,0,0,.6-.6v-4.8A2.4,2.4,0,0,0,49.6,192.2Zm-17.4-15h3.6v2.4H32.2Zm-15,17.4a1.2,1.2,0,0,1,1.2-1.2h1.2a1.2,1.2,0,0,1,1.2,1.2v1.236a2.855,2.855,0,0,0-2.4,2.814v.15H17.2Zm2.4,4.2v-.15A1.652,1.652,0,0,1,21.25,197h.3a1.652,1.652,0,0,1,1.65,1.65v.15Zm4.8-1.2h4.2v1.2H24.4ZM29.8,179H31v1.2a.6.6,0,0,0,.6.6h4.8a.6.6,0,0,0,.6-.6V179h1.2v19.8H36.4v-4.2a.6.6,0,0,0-.6-.6H32.2a.6.6,0,0,0-.6.6v4.2H29.8Zm3,19.8v-3.6h2.4v3.6Zm6.6-1.2h4.2v1.2H39.4Zm5.4,1.2v-.15A1.652,1.652,0,0,1,46.45,197h.3a1.652,1.652,0,0,1,1.65,1.65v.15Zm6,0H49.6v-.15a2.855,2.855,0,0,0-2.4-2.814V194.6a1.2,1.2,0,0,1,1.2-1.2h1.2a1.2,1.2,0,0,1,1.2,1.2Z"
+                  transform="translate(-16 -176)"
+                />
+                <path
+                  id="Path_32"
+                  data-name="Path 32"
+                  d="M344,368h1.8v1.2H344Z"
+                  transform="translate(-319.4 -353.6)"
+                />
+                <path
+                  id="Path_33"
+                  data-name="Path 33"
+                  d="M344,408h1.8v1.2H344Z"
+                  transform="translate(-319.4 -390.6)"
+                />
+                <path
+                  id="Path_34"
+                  data-name="Path 34"
+                  d="M344,288h1.8v1.2H344Z"
+                  transform="translate(-319.4 -279.6)"
+                />
+                <path
+                  id="Path_35"
+                  data-name="Path 35"
+                  d="M344,328h1.8v1.2H344Z"
+                  transform="translate(-319.4 -316.6)"
+                />
+              </svg>
+            </div>
+            <span class="interest-icons-text">Hotel</span>
+          </div>
+          <div class="interest-icons-container">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="50"
+                viewBox="0 0 51.461 39.637"
+              >
+                <g id="travel" transform="translate(0.253 0.268)">
+                  <path
+                    id="Path_36"
+                    data-name="Path 36"
+                    d="M51.093,13.234a4.1,4.1,0,0,0-4.777-2.49l-2.774-1.67a4.083,4.083,0,0,0-3.472-.337L29.925,12.383,21.593.756A.814.814,0,0,0,20.66.468L16.123,2.1a.792.792,0,0,0-.482,1.019l4.68,12.714L10.233,19.458,4.814,13.472a.811.811,0,0,0-.876-.217L.909,14.344a.792.792,0,0,0-.482,1.019L4.836,27.327a.8.8,0,0,0,.757.524H5.6l17.075-.207a.8.8,0,0,0,.266-.049l1.512-.545,4.41,11.965a.805.805,0,0,0,.757.524.818.818,0,0,0,.276-.049l4.544-1.634a.794.794,0,0,0,.527-.813L33.845,23.677l14.843-5.338a4,4,0,0,0,2.649-3.747,3.945,3.945,0,0,0-.243-1.358ZM17.431,3.323l3.2-1.151,7.723,10.775-6.52,2.343ZM4.421,21.547l-2.2-5.979,1.76-.632L8.6,20.045ZM30.105,37.723,24.593,22.768,31.93,20.13l1.383,16.441ZM48.137,16.846l-14.43,5.189-.259-3.074a.791.791,0,0,0-.368-.6.822.822,0,0,0-.71-.078l-9.086,3.266a.8.8,0,0,0-.454.411.787.787,0,0,0-.027.609l1.1,2.99-1.384.5-16.366.2L4.973,23.043,40.62,10.233a2.455,2.455,0,0,1,2.087.2l.772.465-2.366.851.551,1.5L45.24,11.96l.546.329a.814.814,0,0,0,.689.071,2.458,2.458,0,0,1,3.1,1.419,2.377,2.377,0,0,1-1.442,3.067Z"
+                    transform="translate(-0.378 -0.42)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Path_37"
+                    data-name="Path 37"
+                    d="M0,0H1.763V1.764H0Z"
+                    transform="translate(35.302 13.539) rotate(-19.993)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Path_38"
+                    data-name="Path 38"
+                    d="M0,0H1.763V1.764H0Z"
+                    transform="translate(32.285 14.649) rotate(-19.993)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Path_39"
+                    data-name="Path 39"
+                    d="M0,0H1.763V1.764H0Z"
+                    transform="translate(29.269 15.761) rotate(-19.993)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Path_40"
+                    data-name="Path 40"
+                    d="M0,0H1.763V1.764H0Z"
+                    transform="translate(26.251 16.871) rotate(-19.993)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Path_41"
+                    data-name="Path 41"
+                    d="M0,0H1.763V1.764H0Z"
+                    transform="translate(23.234 17.982) rotate(-19.993)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Path_42"
+                    data-name="Path 42"
+                    d="M0,0H1.763V1.764H0Z"
+                    transform="translate(20.217 19.094) rotate(-19.993)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Path_43"
+                    data-name="Path 43"
+                    d="M0,0H1.763V1.764H0Z"
+                    transform="translate(17.2 20.204) rotate(-19.993)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Path_44"
+                    data-name="Path 44"
+                    d="M0,0H1.764V1.764H0Z"
+                    transform="translate(14.176 21.325) rotate(-19.993)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    id="Path_45"
+                    data-name="Path 45"
+                    d="M0,0H1.764V1.764H0Z"
+                    transform="translate(11.158 22.435) rotate(-19.993)"
+                    stroke="#707070"
+                    stroke-width="0.5"
+                  />
+                </g>
+              </svg>
+            </div>
+            <span class="interest-icons-text">Flight</span>
+          </div>
+          <div class="interest-icons-container">
+            <div>
+              <svg
+                id="car_1_"
+                data-name="car (1)"
+                xmlns="http://www.w3.org/2000/svg"
+                width="36"
+                height="50"
+                viewBox="0 0 45.679 36"
+              >
+                <g
+                  id="Group_14"
+                  data-name="Group 14"
+                  transform="translate(0.952 18.925)"
+                >
+                  <g id="Group_13" data-name="Group 13">
+                    <path
+                      id="Path_91"
+                      data-name="Path 91"
+                      d="M22.76,272.655l-4.595-4.595a4.731,4.731,0,0,0-3.365-1.393H11.618a.952.952,0,1,0,0,1.9H14.8a2.875,2.875,0,0,1,2.017.836l2.971,2.971H11.618a.952.952,0,0,0,0,1.9H22.086a.953.953,0,0,0,.674-1.625Z"
+                      transform="translate(-10.666 -266.667)"
+                    />
+                  </g>
+                </g>
+                <g
+                  id="Group_16"
+                  data-name="Group 16"
+                  transform="translate(1.903 28.387)"
+                >
+                  <g
+                    id="Group_15"
+                    data-name="Group 15"
+                    transform="translate(0 0)"
+                  >
+                    <path
+                      id="Path_92"
+                      data-name="Path 92"
+                      d="M31.8,374.285a.952.952,0,0,0-.952.952v2.855a.953.953,0,0,1-.952.952h-5.71a.953.953,0,0,1-.952-.952v-3.807a.952.952,0,1,0-1.9,0v3.807a2.858,2.858,0,0,0,2.855,2.855H29.9a2.858,2.858,0,0,0,2.855-2.855v-2.855A.952.952,0,0,0,31.8,374.285Z"
+                      transform="translate(-21.333 -373.333)"
+                    />
+                  </g>
+                </g>
+                <g
+                  id="Group_18"
+                  data-name="Group 18"
+                  transform="translate(0 11.257)"
+                >
+                  <g
+                    id="Group_17"
+                    data-name="Group 17"
+                    transform="translate(0)"
+                  >
+                    <path
+                      id="Path_93"
+                      data-name="Path 93"
+                      d="M41.361,183.346c-2.623-1.372-8.51-2.012-18.521-2.012s-15.9.64-18.521,2.012C1.33,184.906,0,187.514,0,191.8a33.9,33.9,0,0,0,.984,7.859.949.949,0,0,0,.919.706h8.34l3.6,1.8a.955.955,0,0,0,.426.1H31.4a.941.941,0,0,0,.424-.1l3.607-1.8h8.34a.949.949,0,0,0,.919-.706,33.9,33.9,0,0,0,.984-7.859C45.679,187.514,44.349,184.906,41.361,183.346Zm1.663,15.118H35.213a.943.943,0,0,0-.426.1l-3.607,1.8H14.5l-3.6-1.8a.955.955,0,0,0-.426-.1H2.657A32.725,32.725,0,0,1,1.9,191.8c0-3.584.955-5.546,3.295-6.77,2.28-1.192,8.215-1.795,17.642-1.795s15.362.6,17.642,1.795c2.339,1.224,3.295,3.186,3.295,6.77A32.892,32.892,0,0,1,43.024,198.464Z"
+                      transform="translate(0 -181.334)"
+                    />
+                  </g>
+                </g>
+                <g
+                  id="Group_20"
+                  data-name="Group 20"
+                  transform="translate(32.357 18.925)"
+                >
+                  <g id="Group_19" data-name="Group 19">
+                    <path
+                      id="Path_94"
+                      data-name="Path 94"
+                      d="M374.091,272.377H365.92l2.969-2.971a2.88,2.88,0,0,1,2.019-.836h3.182a.952.952,0,0,0,0-1.9h-3.182a4.731,4.731,0,0,0-3.365,1.393l-4.595,4.595a.953.953,0,0,0,.674,1.625h10.468a.952.952,0,0,0,0-1.9Z"
+                      transform="translate(-362.672 -266.667)"
+                    />
+                  </g>
+                </g>
+                <g
+                  id="Group_22"
+                  data-name="Group 22"
+                  transform="translate(11.42 18.925)"
+                >
+                  <g id="Group_21" data-name="Group 21">
+                    <path
+                      id="Path_95"
+                      data-name="Path 95"
+                      d="M150.747,267.215a.953.953,0,0,0-.862-.548H128.948a.951.951,0,0,0-.731,1.561l4.758,5.71a.953.953,0,0,0,.731.343h11.42a.953.953,0,0,0,.731-.343l4.758-5.71A.949.949,0,0,0,150.747,267.215Zm-6.068,5.162H134.152l-3.173-3.807h16.873Z"
+                      transform="translate(-127.996 -266.667)"
+                    />
+                  </g>
+                </g>
+                <g
+                  id="Group_24"
+                  data-name="Group 24"
+                  transform="translate(3.807)"
+                >
+                  <g
+                    id="Group_23"
+                    data-name="Group 23"
+                    transform="translate(0 0)"
+                  >
+                    <path
+                      id="Path_96"
+                      data-name="Path 96"
+                      d="M80.657,67.229c-1.083-2.49-4.707-10.695-5.967-11.766-1.57-1.334-6.068-2.13-12.037-2.13h-1.9c-5.969,0-10.466.8-12.037,2.128-1.26,1.072-4.886,9.277-5.967,11.766a.953.953,0,0,0,1.747.759c2.149-4.947,4.777-10.443,5.453-11.073.733-.622,3.833-1.677,10.8-1.677h1.9c6.97,0,10.07,1.054,10.8,1.673.679.634,3.308,6.129,5.457,11.077a.952.952,0,0,0,1.747-.758Z"
+                      transform="translate(-42.668 -53.333)"
+                    />
+                  </g>
+                </g>
+                <g
+                  id="Group_26"
+                  data-name="Group 26"
+                  transform="translate(32.356 28.387)"
+                >
+                  <g
+                    id="Group_25"
+                    data-name="Group 25"
+                    transform="translate(0 0)"
+                  >
+                    <path
+                      id="Path_97"
+                      data-name="Path 97"
+                      d="M373.133,373.333a.952.952,0,0,0-.952.952v3.807a.953.953,0,0,1-.952.952h-5.71a.953.953,0,0,1-.952-.952v-2.855a.952.952,0,1,0-1.9,0v2.855a2.858,2.858,0,0,0,2.855,2.855h5.71a2.858,2.858,0,0,0,2.855-2.855v-3.807A.952.952,0,0,0,373.133,373.333Z"
+                      transform="translate(-362.665 -373.333)"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <span class="interest-icons-text">Car</span>
+          </div>
+        </div>
+        <input type="search" class="location-selector" value="Pattaya" />
+        <div class="date-selector-container">
+          <input
+            type="search"
+            class="date-selector start-date"
+            value="Thu,28 Jan-2021"
+          />
+          <input
+            type="search"
+            class="date-selector end-date"
+            value="Fri,29 Jan-2021"
+          />
+        </div>
+        <input class="room-selector" value="2 adult ,1 children - 1 room" />
+        <button class="search-button">Search</button>
+        <div class="recent-search">
+          <header class="recent-search-header">Recent Searches</header>
+          <div class="recent-search-container">
+            <div class="recent-search-card">
+              <img
+                class="recent-search-card-image-box"
+                src="./image/hotel-jw-marriot.jpg"
+                alt="hotel-preview"
+                width="198px"
+                height="173px"
+              />
+              <div class="recent-search-description-box">
+                <span class="recent-search-hotel-name">Hotel JW Marriott</span>
+                <div class="recent-search-rating-star-preview">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_18"
+                      data-name="Path 18"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#ffc362"
+                      opacity="0.999"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_18"
+                      data-name="Path 18"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#ffc362"
+                      opacity="0.999"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_18"
+                      data-name="Path 18"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#ffc362"
+                      opacity="0.999"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_18"
+                      data-name="Path 18"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#ffc362"
+                      opacity="0.999"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_22"
+                      data-name="Path 22"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#727c8e"
+                      opacity="0.3"
+                    />
+                  </svg>
+                </div>
+                <div class="recent-search-rating-description">
+                  <div class="recent-search-rating">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="10"
+                      height="10"
+                      viewBox="0 0 10 10"
+                    >
+                      <path
+                        id="Path_12"
+                        data-name="Path 12"
+                        d="M59,72.039,62.09,74l-.817-3.7L64,67.813l-3.6-.325L59,64l-1.4,3.488-3.6.325L56.728,70.3,55.91,74Z"
+                        transform="translate(-54 -64)"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="recent-search-rating-number">4.9</span>
+                  </div>
+                  <span class="recent-search-rating-counts">1366 Reviews</span>
+                </div>
+                <span class="recent-search-amenities-header">Amenities</span>
+                <div class="recent-search-amenities-icons-container">
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.435"
+                      height="16.632"
+                      viewBox="0 0 16.435 11.632"
+                    >
+                      <g
+                        id="Group_25"
+                        data-name="Group 25"
+                        transform="translate(0 0)"
+                      >
+                        <path
+                          id="Path_8"
+                          data-name="Path 8"
+                          d="M16.341,9.306a.423.423,0,0,0-.326-.155h-1.6A5.453,5.453,0,0,0,12.921,6.7c-2.022-1.33-7.385-1.33-9.407,0A5.48,5.48,0,0,0,2.02,9.151H.421a.421.421,0,0,0-.412.506l.237,1.148a.421.421,0,0,0,.412.335h.474A2.842,2.842,0,0,0,.449,13a2.782,2.782,0,0,0,.879,2.089l.019.015v1.606a.632.632,0,0,0,.631.631H3.454a.632.632,0,0,0,.631-.631v-.646H12.35v.646a.632.632,0,0,0,.631.631h1.475a.632.632,0,0,0,.631-.631V15.133a2.887,2.887,0,0,0,.184-3.993h.505a.419.419,0,0,0,.412-.336l.237-1.148A.424.424,0,0,0,16.341,9.306ZM4.207,7.759c1.612-1.061,6.409-1.061,8.019,0a5.2,5.2,0,0,1,1.085,2.052H3.123A5.2,5.2,0,0,1,4.207,7.759Zm-1.888,5.4A1.242,1.242,0,1,1,3.561,14.4,1.242,1.242,0,0,1,2.319,13.156ZM12.89,14.4a1.242,1.242,0,1,1,1.242-1.242A1.242,1.242,0,0,1,12.89,14.4Z"
+                          transform="translate(0 -5.707)"
+                          fill="#003aa8"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.607"
+                      height="16"
+                      viewBox="0 0 17.607 16"
+                    >
+                      <path
+                        id="bath"
+                        d="M17.806,10H4.2V5.531a1.58,1.58,0,0,1,.832-1.408,1.6,1.6,0,0,1,.918-.185,2.794,2.794,0,0,0,.67,2.845l.849.849a.8.8,0,0,0,1.132,0L11.432,4.8a.8.8,0,0,0,0-1.132l-.849-.849a2.8,2.8,0,0,0-3.625-.274A3.2,3.2,0,0,0,2.6,5.531V10H1.8a.8.8,0,1,0,0,1.6h.8v2.4a2.4,2.4,0,0,0,1.6,2.253v.948a.8.8,0,0,0,1.6,0v-.8h8v.8a.8.8,0,0,0,1.6,0v-.948a2.4,2.4,0,0,0,1.6-2.253v-2.4h.8a.8.8,0,1,0,0-1.6ZM7.754,3.954a1.2,1.2,0,0,1,1.7,0l.283.283-1.7,1.7-.283-.283a1.2,1.2,0,0,1,0-1.7Zm7.651,10.052a.8.8,0,0,1-.8.8H5a.8.8,0,0,1-.8-.8v-2.4h11.2Z"
+                        transform="translate(-1 -2.008)"
+                        fill="#003aa8"
+                      />
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      id="glass-and-bottle-of-wine"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.219"
+                      height="16.16"
+                      viewBox="0 0 12.219 16.16"
+                    >
+                      <path
+                        id="Path_15"
+                        data-name="Path 15"
+                        d="M8.318,8.15a3.759,3.759,0,0,0-.48-1.863l-.075-.131H3.083l-.073.131A3.765,3.765,0,0,0,2.53,8.15a3.252,3.252,0,0,0,2.483,3.339v3.966c-.809.033-1.412.156-1.412.3,0,.173.822.312,1.836.312s1.838-.139,1.838-.312c0-.146-.6-.269-1.412-.3V11.485A3.262,3.262,0,0,0,8.318,8.15ZM5.423,11A2.653,2.653,0,0,1,3.046,8.148a3.27,3.27,0,0,1,.343-1.477H7.458A3.284,3.284,0,0,1,7.8,8.148,2.652,2.652,0,0,1,5.423,11Zm7.85-9.22H11.215V0h2.058Zm0,2.212V2.334H11.215V4A2.5,2.5,0,0,0,9.738,6.28v9.88h5.011V6.28A2.5,2.5,0,0,0,13.273,4Zm1.033,9.644H10.225v-4.9h4.081ZM7.586,8.2s-.108,2.589-2.128,2.589S3.166,8.2,3.166,8.2Z"
+                        transform="translate(-2.53)"
+                        fill="#003aa8"
+                      />
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.854"
+                      height="16.927"
+                      viewBox="0 0 14.854 9.927"
+                    >
+                      <g id="wifi" transform="translate(0.847 0.6)">
+                        <path
+                          id="Path_88"
+                          data-name="Path 88"
+                          d="M5,11.587a6.841,6.841,0,0,1,8.757,0"
+                          transform="translate(-2.773 -6.893)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                        />
+                        <path
+                          id="Path_89"
+                          data-name="Path 89"
+                          d="M1.42,7.489a9.951,9.951,0,0,1,13.16,0"
+                          transform="translate(-1.42 -5.003)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                        />
+                        <path
+                          id="Path_90"
+                          data-name="Path 90"
+                          d="M8.53,15.691a3.732,3.732,0,0,1,4.322,0"
+                          transform="translate(-4.108 -8.783)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                        />
+                        <line
+                          id="Line_24"
+                          data-name="Line 24"
+                          transform="translate(6.58 9.327)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      id="Clocks_1_"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.647"
+                      height="16.355"
+                      viewBox="0 0 16.647 9.355"
+                    >
+                      <path
+                        id="Clocks"
+                        d="M16.393,17.2a.875.875,0,0,0-.668-.326h-.378v-.305a1.032,1.032,0,0,0-1.062-1h-.5V15a.984.984,0,0,0-.31-.71,1.1,1.1,0,0,0-1.461,0,.984.984,0,0,0-.31.711V17.65H4.942V15a.983.983,0,0,0-.31-.71,1.1,1.1,0,0,0-1.461,0,.983.983,0,0,0-.31.71v.564H2.3a1.034,1.034,0,0,0-.7.267.918.918,0,0,0-.3.672v.361H.926a.878.878,0,0,0-.671.328A1.143,1.143,0,0,0,0,17.928v1.523a1.142,1.142,0,0,0,.255.731.878.878,0,0,0,.671.328H1.3v.361a.918.918,0,0,0,.3.672,1.033,1.033,0,0,0,.7.267h.559v.564a.983.983,0,0,0,.31.71,1.073,1.073,0,0,0,1.461,0,.983.983,0,0,0,.31-.71V19.73h6.763v2.645a.983.983,0,0,0,.31.71,1.073,1.073,0,0,0,1.461,0,.984.984,0,0,0,.31-.71v-.564h.5a1.031,1.031,0,0,0,1.062-1v-.305h.378a.877.877,0,0,0,.668-.326,1.137,1.137,0,0,0,.254-.728V17.924A1.138,1.138,0,0,0,16.393,17.2ZM.926,19.99a.356.356,0,0,1-.271-.14.629.629,0,0,1-.135-.4V17.928a.629.629,0,0,1,.135-.4.356.356,0,0,1,.271-.14H1.3v2.6Zm1.376,1.3a.52.52,0,0,1-.348-.13.391.391,0,0,1-.133-.289V16.508a.391.391,0,0,1,.132-.289.522.522,0,0,1,.349-.131h.559v5.2Zm2.12,1.084a.455.455,0,0,1-.147.332.573.573,0,0,1-.746,0,.454.454,0,0,1-.147-.332V15a.455.455,0,0,1,.147-.332.553.553,0,0,1,.747,0A.455.455,0,0,1,4.422,15v7.37Zm.52-3.165V18.17h6.763v1.04Zm8.324,3.165a.455.455,0,0,1-.147.332.573.573,0,0,1-.746,0,.454.454,0,0,1-.147-.332V15a.455.455,0,0,1,.147-.332.553.553,0,0,1,.747,0,.454.454,0,0,1,.147.332v7.37Zm1.561-1.559a.512.512,0,0,1-.542.475h-.5v-5.2h.5a.512.512,0,0,1,.542.475v4.252Zm1.3-1.36a.626.626,0,0,1-.134.4.353.353,0,0,1-.268.139h-.378v-2.6h.378a.353.353,0,0,1,.268.139.624.624,0,0,1,.134.4Z"
+                        transform="translate(0 -14.017)"
+                        fill="#003aa8"
+                      />
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons dots">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="3"
+                      height="3"
+                      viewBox="0 0 3 3"
+                    >
+                      <g
+                        id="Group_640"
+                        data-name="Group 640"
+                        transform="translate(-493.239 -113.5)"
+                      >
+                        <circle
+                          id="Ellipse_52"
+                          data-name="Ellipse 52"
+                          cx="1"
+                          cy="1"
+                          r="1"
+                          transform="translate(493.739 114)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1"
+                        />
+                      </g>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="3"
+                      height="3"
+                      viewBox="0 0 3 3"
+                    >
+                      <g
+                        id="Group_640"
+                        data-name="Group 640"
+                        transform="translate(-493.239 -113.5)"
+                      >
+                        <circle
+                          id="Ellipse_52"
+                          data-name="Ellipse 52"
+                          cx="1"
+                          cy="1"
+                          r="1"
+                          transform="translate(493.739 114)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1"
+                        />
+                      </g>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="3"
+                      height="3"
+                      viewBox="0 0 3 3"
+                    >
+                      <g
+                        id="Group_640"
+                        data-name="Group 640"
+                        transform="translate(-493.239 -113.5)"
+                      >
+                        <circle
+                          id="Ellipse_52"
+                          data-name="Ellipse 52"
+                          cx="1"
+                          cy="1"
+                          r="1"
+                          transform="translate(493.739 114)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+                <span class="recent-search-price">1,000/night</span>
+              </div>
+              <button class="recent-search-book-now">
+                <span class="recent-search-book-now-text">Book Now</span>
+              </button>
+            </div>
+            <div class="recent-search-card">
+              <img
+                class="recent-search-card-image-box"
+                src="./image/hotel-jw-marriot.jpg"
+                alt="hotel-preview"
+                width="198px"
+                height="173px"
+              />
+              <div class="recent-search-description-box">
+                <span class="recent-search-hotel-name">Hotel JW Marriott</span>
+                <div class="recent-search-rating-star-preview">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_18"
+                      data-name="Path 18"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#ffc362"
+                      opacity="0.999"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_18"
+                      data-name="Path 18"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#ffc362"
+                      opacity="0.999"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_18"
+                      data-name="Path 18"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#ffc362"
+                      opacity="0.999"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_18"
+                      data-name="Path 18"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#ffc362"
+                      opacity="0.999"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                  >
+                    <path
+                      id="Path_22"
+                      data-name="Path 22"
+                      d="M60,73.646,63.708,76l-.981-4.44L66,68.575l-4.315-.39L60,64l-1.685,4.185L54,68.575l3.273,2.985L56.292,76Z"
+                      transform="translate(-54 -64)"
+                      fill="#727c8e"
+                      opacity="0.3"
+                    />
+                  </svg>
+                </div>
+                <div class="recent-search-rating-description">
+                  <div class="recent-search-rating">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="10"
+                      height="10"
+                      viewBox="0 0 10 10"
+                    >
+                      <path
+                        id="Path_12"
+                        data-name="Path 12"
+                        d="M59,72.039,62.09,74l-.817-3.7L64,67.813l-3.6-.325L59,64l-1.4,3.488-3.6.325L56.728,70.3,55.91,74Z"
+                        transform="translate(-54 -64)"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="recent-search-rating-number">4.9</span>
+                  </div>
+                  <span class="recent-search-rating-counts">1366 Reviews</span>
+                </div>
+                <span class="recent-search-amenities-header">Amenities</span>
+                <div class="recent-search-amenities-icons-container">
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.435"
+                      height="16.632"
+                      viewBox="0 0 16.435 11.632"
+                    >
+                      <g
+                        id="Group_25"
+                        data-name="Group 25"
+                        transform="translate(0 0)"
+                      >
+                        <path
+                          id="Path_8"
+                          data-name="Path 8"
+                          d="M16.341,9.306a.423.423,0,0,0-.326-.155h-1.6A5.453,5.453,0,0,0,12.921,6.7c-2.022-1.33-7.385-1.33-9.407,0A5.48,5.48,0,0,0,2.02,9.151H.421a.421.421,0,0,0-.412.506l.237,1.148a.421.421,0,0,0,.412.335h.474A2.842,2.842,0,0,0,.449,13a2.782,2.782,0,0,0,.879,2.089l.019.015v1.606a.632.632,0,0,0,.631.631H3.454a.632.632,0,0,0,.631-.631v-.646H12.35v.646a.632.632,0,0,0,.631.631h1.475a.632.632,0,0,0,.631-.631V15.133a2.887,2.887,0,0,0,.184-3.993h.505a.419.419,0,0,0,.412-.336l.237-1.148A.424.424,0,0,0,16.341,9.306ZM4.207,7.759c1.612-1.061,6.409-1.061,8.019,0a5.2,5.2,0,0,1,1.085,2.052H3.123A5.2,5.2,0,0,1,4.207,7.759Zm-1.888,5.4A1.242,1.242,0,1,1,3.561,14.4,1.242,1.242,0,0,1,2.319,13.156ZM12.89,14.4a1.242,1.242,0,1,1,1.242-1.242A1.242,1.242,0,0,1,12.89,14.4Z"
+                          transform="translate(0 -5.707)"
+                          fill="#003aa8"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.607"
+                      height="16"
+                      viewBox="0 0 17.607 16"
+                    >
+                      <path
+                        id="bath"
+                        d="M17.806,10H4.2V5.531a1.58,1.58,0,0,1,.832-1.408,1.6,1.6,0,0,1,.918-.185,2.794,2.794,0,0,0,.67,2.845l.849.849a.8.8,0,0,0,1.132,0L11.432,4.8a.8.8,0,0,0,0-1.132l-.849-.849a2.8,2.8,0,0,0-3.625-.274A3.2,3.2,0,0,0,2.6,5.531V10H1.8a.8.8,0,1,0,0,1.6h.8v2.4a2.4,2.4,0,0,0,1.6,2.253v.948a.8.8,0,0,0,1.6,0v-.8h8v.8a.8.8,0,0,0,1.6,0v-.948a2.4,2.4,0,0,0,1.6-2.253v-2.4h.8a.8.8,0,1,0,0-1.6ZM7.754,3.954a1.2,1.2,0,0,1,1.7,0l.283.283-1.7,1.7-.283-.283a1.2,1.2,0,0,1,0-1.7Zm7.651,10.052a.8.8,0,0,1-.8.8H5a.8.8,0,0,1-.8-.8v-2.4h11.2Z"
+                        transform="translate(-1 -2.008)"
+                        fill="#003aa8"
+                      />
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      id="glass-and-bottle-of-wine"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.219"
+                      height="16.16"
+                      viewBox="0 0 12.219 16.16"
+                    >
+                      <path
+                        id="Path_15"
+                        data-name="Path 15"
+                        d="M8.318,8.15a3.759,3.759,0,0,0-.48-1.863l-.075-.131H3.083l-.073.131A3.765,3.765,0,0,0,2.53,8.15a3.252,3.252,0,0,0,2.483,3.339v3.966c-.809.033-1.412.156-1.412.3,0,.173.822.312,1.836.312s1.838-.139,1.838-.312c0-.146-.6-.269-1.412-.3V11.485A3.262,3.262,0,0,0,8.318,8.15ZM5.423,11A2.653,2.653,0,0,1,3.046,8.148a3.27,3.27,0,0,1,.343-1.477H7.458A3.284,3.284,0,0,1,7.8,8.148,2.652,2.652,0,0,1,5.423,11Zm7.85-9.22H11.215V0h2.058Zm0,2.212V2.334H11.215V4A2.5,2.5,0,0,0,9.738,6.28v9.88h5.011V6.28A2.5,2.5,0,0,0,13.273,4Zm1.033,9.644H10.225v-4.9h4.081ZM7.586,8.2s-.108,2.589-2.128,2.589S3.166,8.2,3.166,8.2Z"
+                        transform="translate(-2.53)"
+                        fill="#003aa8"
+                      />
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.854"
+                      height="16.927"
+                      viewBox="0 0 14.854 9.927"
+                    >
+                      <g id="wifi" transform="translate(0.847 0.6)">
+                        <path
+                          id="Path_88"
+                          data-name="Path 88"
+                          d="M5,11.587a6.841,6.841,0,0,1,8.757,0"
+                          transform="translate(-2.773 -6.893)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                        />
+                        <path
+                          id="Path_89"
+                          data-name="Path 89"
+                          d="M1.42,7.489a9.951,9.951,0,0,1,13.16,0"
+                          transform="translate(-1.42 -5.003)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                        />
+                        <path
+                          id="Path_90"
+                          data-name="Path 90"
+                          d="M8.53,15.691a3.732,3.732,0,0,1,4.322,0"
+                          transform="translate(-4.108 -8.783)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                        />
+                        <line
+                          id="Line_24"
+                          data-name="Line 24"
+                          transform="translate(6.58 9.327)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.2"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons">
+                    <svg
+                      id="Clocks_1_"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="17.647"
+                      height="16.355"
+                      viewBox="0 0 16.647 9.355"
+                    >
+                      <path
+                        id="Clocks"
+                        d="M16.393,17.2a.875.875,0,0,0-.668-.326h-.378v-.305a1.032,1.032,0,0,0-1.062-1h-.5V15a.984.984,0,0,0-.31-.71,1.1,1.1,0,0,0-1.461,0,.984.984,0,0,0-.31.711V17.65H4.942V15a.983.983,0,0,0-.31-.71,1.1,1.1,0,0,0-1.461,0,.983.983,0,0,0-.31.71v.564H2.3a1.034,1.034,0,0,0-.7.267.918.918,0,0,0-.3.672v.361H.926a.878.878,0,0,0-.671.328A1.143,1.143,0,0,0,0,17.928v1.523a1.142,1.142,0,0,0,.255.731.878.878,0,0,0,.671.328H1.3v.361a.918.918,0,0,0,.3.672,1.033,1.033,0,0,0,.7.267h.559v.564a.983.983,0,0,0,.31.71,1.073,1.073,0,0,0,1.461,0,.983.983,0,0,0,.31-.71V19.73h6.763v2.645a.983.983,0,0,0,.31.71,1.073,1.073,0,0,0,1.461,0,.984.984,0,0,0,.31-.71v-.564h.5a1.031,1.031,0,0,0,1.062-1v-.305h.378a.877.877,0,0,0,.668-.326,1.137,1.137,0,0,0,.254-.728V17.924A1.138,1.138,0,0,0,16.393,17.2ZM.926,19.99a.356.356,0,0,1-.271-.14.629.629,0,0,1-.135-.4V17.928a.629.629,0,0,1,.135-.4.356.356,0,0,1,.271-.14H1.3v2.6Zm1.376,1.3a.52.52,0,0,1-.348-.13.391.391,0,0,1-.133-.289V16.508a.391.391,0,0,1,.132-.289.522.522,0,0,1,.349-.131h.559v5.2Zm2.12,1.084a.455.455,0,0,1-.147.332.573.573,0,0,1-.746,0,.454.454,0,0,1-.147-.332V15a.455.455,0,0,1,.147-.332.553.553,0,0,1,.747,0A.455.455,0,0,1,4.422,15v7.37Zm.52-3.165V18.17h6.763v1.04Zm8.324,3.165a.455.455,0,0,1-.147.332.573.573,0,0,1-.746,0,.454.454,0,0,1-.147-.332V15a.455.455,0,0,1,.147-.332.553.553,0,0,1,.747,0,.454.454,0,0,1,.147.332v7.37Zm1.561-1.559a.512.512,0,0,1-.542.475h-.5v-5.2h.5a.512.512,0,0,1,.542.475v4.252Zm1.3-1.36a.626.626,0,0,1-.134.4.353.353,0,0,1-.268.139h-.378v-2.6h.378a.353.353,0,0,1,.268.139.624.624,0,0,1,.134.4Z"
+                        transform="translate(0 -14.017)"
+                        fill="#003aa8"
+                      />
+                    </svg>
+                  </div>
+                  <div class="recent-search-amenities-icons dots">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="3"
+                      height="3"
+                      viewBox="0 0 3 3"
+                    >
+                      <g
+                        id="Group_640"
+                        data-name="Group 640"
+                        transform="translate(-493.239 -113.5)"
+                      >
+                        <circle
+                          id="Ellipse_52"
+                          data-name="Ellipse 52"
+                          cx="1"
+                          cy="1"
+                          r="1"
+                          transform="translate(493.739 114)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1"
+                        />
+                      </g>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="3"
+                      height="3"
+                      viewBox="0 0 3 3"
+                    >
+                      <g
+                        id="Group_640"
+                        data-name="Group 640"
+                        transform="translate(-493.239 -113.5)"
+                      >
+                        <circle
+                          id="Ellipse_52"
+                          data-name="Ellipse 52"
+                          cx="1"
+                          cy="1"
+                          r="1"
+                          transform="translate(493.739 114)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1"
+                        />
+                      </g>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="3"
+                      height="3"
+                      viewBox="0 0 3 3"
+                    >
+                      <g
+                        id="Group_640"
+                        data-name="Group 640"
+                        transform="translate(-493.239 -113.5)"
+                      >
+                        <circle
+                          id="Ellipse_52"
+                          data-name="Ellipse 52"
+                          cx="1"
+                          cy="1"
+                          r="1"
+                          transform="translate(493.739 114)"
+                          fill="none"
+                          stroke="#003aa8"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+                <span class="recent-search-price">1,000/night</span>
+              </div>
+              <button class="recent-search-book-now">
+                <span class="recent-search-book-now-text">Book Now</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="interactive-area">
+        <div class="interactive-area-main">
+          <header class="interactive-text-header">Incredible India</header>
+          <span class="interactive-text-promo"
+            >"For where thy treasure is,<br />
+            &nbsp; &nbsp; &nbsp; &nbsp;there also will thy heart be."</span
+          >
+          <button class="interactive-take-tour-button">Take Tour</button>
+        </div>
+        <div class="interactive-next-page-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="67.2315"
+            height="67.2315"
+            viewBox="0 0 89.642 89.642"
+          >
+            <defs>
+              <filter
+                id="Path_3"
+                x="0"
+                y="0"
+                width="89.642"
+                height="89.642"
+                filterUnits="userSpaceOnUse"
+              >
+                <feOffset dx="10" dy="8" input="SourceAlpha" />
+                <feGaussianBlur stdDeviation="7.5" result="blur" />
+                <feFlood flood-color="#e7eaf0" />
+                <feComposite operator="in" in2="blur" />
+                <feComposite in="SourceGraphic" />
+              </filter>
+            </defs>
+            <g
+              id="see_all"
+              data-name="see all"
+              transform="translate(12.5 14.5)"
+            >
+              <g
+                transform="matrix(1, 0, 0, 1, -12.5, -14.5)"
+                filter="url(#Path_3)"
+              >
+                <g
+                  id="Path_3-2"
+                  data-name="Path 3"
+                  transform="translate(12.5 14.5)"
+                  fill="none"
+                >
+                  <path
+                    d="M22.321,0A22.321,22.321,0,1,1,0,22.321,22.321,22.321,0,0,1,22.321,0Z"
+                    stroke="none"
+                  />
+                  <path
+                    d="M 22.321044921875 1.999996185302734 C 19.57684516906738 1.999996185302734 16.91578483581543 2.537006378173828 14.41179466247559 3.596103668212891 C 11.99221420288086 4.619495391845703 9.818794250488281 6.084995269775391 7.951896667480469 7.951896667480469 C 6.084995269775391 9.818794250488281 4.619495391845703 11.99221420288086 3.596103668212891 14.41179466247559 C 2.537006378173828 16.91578483581543 1.999996185302734 19.57684516906738 1.999996185302734 22.321044921875 C 1.999996185302734 25.06524467468262 2.537006378173828 27.72630500793457 3.596103668212891 30.23029518127441 C 4.619495391845703 32.64987564086914 6.084995269775391 34.82329559326172 7.951896667480469 36.690185546875 C 9.818794250488281 38.55708312988281 11.99221420288086 40.0225830078125 14.41179466247559 41.04597473144531 C 16.91578483581543 42.10507583618164 19.57684516906738 42.64208602905273 22.321044921875 42.64208602905273 C 25.06524467468262 42.64208602905273 27.72630500793457 42.10507583618164 30.23029518127441 41.04597473144531 C 32.64987564086914 40.0225830078125 34.82329559326172 38.55708312988281 36.69019317626953 36.69019317626953 C 38.55708312988281 34.82329559326172 40.0225830078125 32.64987564086914 41.04597473144531 30.23029518127441 C 42.10507583618164 27.72630500793457 42.64208602905273 25.06524467468262 42.64208602905273 22.321044921875 C 42.64208602905273 19.57684516906738 42.10507583618164 16.91578483581543 41.04597473144531 14.41179466247559 C 40.0225830078125 11.99221420288086 38.55708312988281 9.818794250488281 36.690185546875 7.951896667480469 C 34.82329559326172 6.084995269775391 32.64987564086914 4.619495391845703 30.23029518127441 3.596103668212891 C 27.72630500793457 2.537006378173828 25.06524467468262 1.999996185302734 22.321044921875 1.999996185302734 M 22.321044921875 -3.814697265625e-06 C 34.64861297607422 -3.814697265625e-06 44.64208602905273 9.993473052978516 44.64208602905273 22.321044921875 C 44.64208602905273 34.64861297607422 34.64861297607422 44.64208602905273 22.321044921875 44.64208602905273 C 9.993473052978516 44.64208602905273 -3.814697265625e-06 34.64861297607422 -3.814697265625e-06 22.321044921875 C -3.814697265625e-06 9.993473052978516 9.993473052978516 -3.814697265625e-06 22.321044921875 -3.814697265625e-06 Z"
+                    stroke="none"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+              <g id="arrow_right" transform="translate(20.084 16.247)">
+                <g id="ARROW__x2F__RIGHT">
+                  <g id="Group_1" data-name="Group 1">
+                    <path
+                      id="Path_2"
+                      data-name="Path 2"
+                      d="M27.123,17.231v0a.887.887,0,0,0-.272-.641h0l-5.343-5.343,0,0a.89.89,0,1,0-1.2,1.318l4.665,4.665-4.726,4.726h0a.89.89,0,0,0,1.259,1.259h0l5.343-5.343h0a.887.887,0,0,0,.272-.641Z"
+                      transform="translate(-20 -11)"
+                      fill="#fff"
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="interactive-decoration-plane">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="75"
+            height="75"
+            viewBox="0 0 100.529 100.529"
+          >
+            <g
+              id="Group_4"
+              data-name="Group 4"
+              transform="translate(88.142) rotate(82)"
+            >
+              <path
+                id="Path_5"
+                data-name="Path 5"
+                d="M0,0H89.008V89.008H0Z"
+                transform="translate(0 0)"
+                fill="none"
+              />
+              <path
+                id="Path_6"
+                data-name="Path 6"
+                d="M40.8,25.764,70.465,44.5v7.417L40.8,42.553V62.432L51.921,68.61v5.563L35.232,70.465,18.543,74.173V68.61l11.126-6.182V42.549L0,51.921V44.5l29.669-18.74V5.563a5.563,5.563,0,0,1,11.126,0v20.2Z"
+                transform="translate(11.126 7.417)"
+                fill="#fff"
+              />
+            </g>
+          </svg>
+        </div>
+        <div>
+          <svg class="interactive-plane-trail">
+            <path
+              d="M 50 100 Q 200 100 450 50 Q 150 150 50 250 Q 50 300 50 100 Z"
+              fill="#fff"
+              stroke="#fff"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

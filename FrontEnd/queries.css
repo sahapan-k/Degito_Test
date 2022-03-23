@@ -1,0 +1,187 @@
+/* Smallder Desktop (1366px) */
+
+@media (max-width: 85.375em) {
+  .nav-bar-icons-header {
+    width: 2.7rem;
+    height: 3.1rem;
+  }
+
+  .nav-bar-items {
+    gap: 5.8rem;
+  }
+
+  .booking-header {
+    font-size: 2.7rem;
+  }
+
+  .interactive-text-header {
+    font-size: 4rem;
+  }
+
+  .interactive-text-promo {
+    font-size: 2.4rem;
+    line-height: 1.2;
+  }
+
+  .interactive-take-tour-button {
+    font-size: 1.4rem;
+  }
+
+  .interactive-plane-trail {
+    transform: translate(-25%, -23%);
+  }
+}
+
+@media (max-width: 77.25rem) {
+  .location-selector {
+    padding: 1.25rem 0 1.25rem 7rem;
+  }
+  .date-selector {
+    padding: 1.25rem 0 1.25rem 7rem;
+  }
+
+  .end-date {
+    padding: 1.2rem 0 1.25rem 3rem;
+  }
+
+  .room-selector {
+    padding: 1.25rem 0 1.25rem 7rem;
+  }
+
+  .interactive-plane-trail {
+    transform: translate(-30%, -23%);
+  }
+}
+
+@media (max-width: 70.875rem) {
+  .recent-search-description-box {
+    margin: 0.5rem 0 0.5rem 0.75rem;
+    gap: 0.275rem;
+  }
+
+  .recent-search-amenities-icons-container {
+    gap: 1.25rem;
+  }
+}
+
+/* Tablet (1024) */
+
+@media (max-width: 64rem) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .main-frame {
+    grid-template-columns: 0.4fr 5fr 6.25fr;
+    gap: 2rem;
+  }
+
+  .interactive-plane-trail {
+    transform: translate(-40%, -24%);
+  }
+}
+
+@media (max-width: 59rem) {
+  html {
+    font-size: 50%;
+  }
+
+  .main-frame {
+    grid-template-columns: 0.4fr 5fr 6.25fr;
+    gap: 2rem;
+  }
+
+  .interest-selector-icons {
+    gap: 6rem;
+  }
+
+  .interactive-plane-trail {
+    transform: translate(-50%, -27%);
+  }
+}
+
+/* Smartphone / Some old Smartphone (768px) */
+@media (max-width: 48rem) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .main-frame {
+    grid-template-columns: 0.25fr 6.25fr 5fr;
+    gap: 2rem;
+  }
+
+  .interest-selector-icons {
+    gap: 5.4rem;
+  }
+
+  .interactive-area-main {
+    gap: 1.5rem;
+  }
+
+  .interactive-text-header {
+    font-size: 3.6rem;
+  }
+
+  .interactive-text-promo {
+    font-size: 2rem;
+  }
+
+  .interactive-plane-trail {
+    transform: translate(-60%, -35%);
+  }
+}
+
+@media (max-width: 39.8125rem) {
+  .main-frame {
+    grid-template-columns: 0.25fr 7.5fr 5fr;
+    gap: 2rem;
+  }
+
+  .nav-bar-items {
+    gap: 4.8rem;
+  }
+
+  .interest-selector-icons {
+    gap: 4.85rem;
+  }
+
+  .recent-search-amenities-icons-container {
+    gap: 0.75rem;
+  }
+
+  .interactive-text-header {
+    font-size: 2.7rem;
+  }
+
+  .interactive-text-promo {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  html {
+    font-size: 37.5%;
+  }
+  .main-frame {
+    grid-template-columns: 1fr 7.5fr 5fr;
+    gap: 2rem;
+  }
+
+  .interest-selector-icons {
+    gap: 4.3rem;
+  }
+  .recent-search-amenities-icons-container {
+    gap: 0.2rem;
+  }
+  .interactive-plane-trail {
+    transform: translate(-74%, -43.5%);
+  }
+  .interactive-text-header {
+    font-size: 2.25rem;
+  }
+
+  .interactive-text-promo {
+    font-size: 1.15rem;
+  }
+}

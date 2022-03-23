@@ -1,0 +1,48 @@
+{
+  "name": "Bangkok-Merriot",
+  "description": "Sukhumvit Park, Bangkok - Marriott Executive Apartments offers you all of the comforts of home in our elebant apartments in Bangkok, Thailand. We provide guests with the safety and flexibility needed when traveling to Thailand for business or leisure. Conveniently situated within walking distance to Phrom Phong BTS station and Emporium Shopping centre, we are an ideal choice for travelers seeking centrally located 5-star apartments in Bangkok. Our 2 tuk tuks run regularly run throughout the day, which makes it easy to access all of Bangkok's commercial areas and famous tourist attractions. With a range of suites, starting from our spacious 45sqm Studio Suites, 65sqm One Bedroom Suites, and 130sqm Two Bedroom Suites, we have options for travelers and families of all sizes.",
+  "available_status": "1",
+  "price": "3390",
+  "location": "Bangkok, Thailand",
+  "rating": "5"
+},
+{
+    "name": "The Siam",
+    "description": "Set on 3 acres of verdant frontage along the city side of the Chao Praya River, The Siam is a private urban luxury resort located in Bangkok's Royal Dusit district. The Siam features 39 of the capital's most spacious suites and pool villas as well as a uniquely historical Thai House, Connie's Cottage. All rooms are outfitted with plush furnishings, super-sized king beds and lofty ceilings. Each suite is individually designed with original turn of the century oriental artwork and antiquities and is catered for by a personal butler. Complimentary WiFi is available property-wide. Guests have an array of superlative amenities at their fingertips: restaurants, cooking school, bar, café, Opium Spa, gym, yoga terrace, Muay Thai boxing ring, beauty salon, library/cinema, infinity pool, gift/antiques gallery, conservatory and traditional Thai houses. The Siam is a member of Preferred Hotels & Resorts.",
+    "available_status": "1",
+    "price": "13724",
+    "location": "Bangkok, Thailand",
+    "rating": "4.8"
+},
+{
+  "name": "Layana Resort and Spa",
+  "description": "Layana Resort and Spa; Our sophisticated hideaway destination for adults also warmly welcome guests over the age of 12 years, to bask in peaceful tranquility and savor warm, unique Thai hospitality. Here, you can awaken on softly luxurious pillows to the whisper of waves gently breaking on the sands; sip a freshly squeezed tropical fruit juice on your balcony, the vibrant green tropical rainforest a splendid backdrop; enjoy a leisurely breakfast, seduced by the abundance of deliciousness; walk on unending grains of golden sand, savoring images of mystical islands scattered on the distant horizon; languidly laze by one of two pools stretching to infinity, your every need met with the warmest of gracious hospitality; be pampered by deft practitioners of relaxing, rejuvenating massages; enjoy a cool sundowner, as a golden sun melts into the deep blue of the ocean; dine on the finest cuisine, from all corners of the globe – al fresco. This, and so much more, is our luxury hideaway destination.",
+  "available_status": "1",
+  "price": "4368",
+  "location": "Ko Lanta, Krabi Province",
+  "rating": "4.7"
+},
+{
+  "name": "Royal Wing Suites & Spa",
+  "description": "The epitome of luxury, the exclusive all-suite Royal Wing & Spa (ultimate luxury) is widely acknowledged as one of the world's finest hotels. All the suites are equipped with advance technology including IPTV. Highly personalized service and attention to detail are trademarks of the hotel; a place where the expectations of the most discerning guests are exceeded. The hotel guests have the exclusive use of the picturesque, free-form Royal Wing Pool and are served by the famous Pool Butlers who ensure a relaxing stay. A TTG Hall of fame winner since 2006. Other awards received include TripAdvisor Travelers' Choice, Social Hotel Award and Superior design award.",
+  "available_status": "1",
+  "price": "9308",
+  "location": "Pattaya, Thailand",
+  "rating": "4.9"
+},
+{
+  "name": "Pimalai Resort and Spa",
+  "description": "Pimalai, nestled in a lush tropical forest with direct access to 900 meters of pristine sandy beach, is the Andaman destination to set your sights on. The beach resort combines all the right ingredients - subtle five star comforts, natural beauty, far from the crowds, with no noise except the sound of the waves sliding in and out and slowly breaking onto the sand.",
+  "available_status": "1",
+  "price": "4654",
+  "location": "Ko Lanta, Krabi Province",
+  "rating": "4.8"
+},
+{
+  "name": "The Athenee Hotel",
+  "description": "Situated in the heart of central Bangkok Sukhumvit and just steps from Phloenchit BTS skytrain station and a few minutes away from Asoke BTS, The Athenee Hotel, a Luxury Collection Hotel, Bangkok is built on the former site of Kandhavas Palace and is one of Bangkok’s most fashionable places to stay and play host. Each of the 374 guestrooms and suites provides impressive views of Bangkok skyline and showcases a Thai-colonial design blending historic Thai culture with the most modern convenience. Guests looking to relax have an array of facilities to enjoy, including a choice of eight award-winning food and beverage venues, rooftop lagoon-style swimming pool, and spa treatments curated for every blood type, to name a few. Family-friendly options include a choice of Family Room or Family Suite, child-friendly swimming pool, and amenities tailor-made to make your child’s stay more memorable.",
+  "available_status": "1",
+  "price": "4400",
+  "location": "Bangkok, Thailand",
+  "rating": "4.5"
+}
